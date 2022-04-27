@@ -1,0 +1,8 @@
+num = 0
+neg = 0
+while num < 11:
+  valor = int(input("Digite um número: "))
+  if valor < 0:
+    neg = neg+1
+  num = num+1
+print("A quantidade de negativos é ", neg)
